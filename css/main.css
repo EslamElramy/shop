@@ -1,0 +1,88 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header nav {
+    font-size: 26px;
+    background: linear-gradient(to left, #111 70%, #bbb);
+    position: fixed;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    padding-right: 15px;
+    color: red;
+    font-size: 22px;
+}
+
+.empty {
+    height: 40px;
+}
+
+section {
+    background: linear-gradient(to left, #111 70%, #bbb);
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background: linear-gradient(to right, #111 70%, #bbb);
+}
+.container {
+    color: white;
+    text-align: center;
+}
+.bold h1 {
+    text-align:center;
+    color: red;
+    font-size: 50px;
+}
+.hr {
+    width: 40%;
+    height: 2px;
+    margin: 20px auto;
+    background: linear-gradient(to right, #111, rgb(233, 66, 94), #111);
+}
+
+.Gallery .nav {
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.Gallery .nav  a {
+    color: white;
+}
+.Gallery .nav .active {
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    border: 1px solid transparent;
+
+}
+
+.textfooter {
+    color: rgb(160, 152, 152);
+    
+
+}
+.textfooter h3 {
+    color: white;
+    font-size: 20px;
+}
+.textfoot{
+    text-align: center;
+}
+.textfoot ul li {
+    list-style: none;
+    color: rgb(160, 152, 152);
+    margin-right: 36px;
+}
+.textfoot h3 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
